@@ -1,0 +1,14 @@
+@media (max-width: 1280px) {
+  .cover {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    margin: 0 0 500px;
+    background-image: url("../../images/cover-trains.jpg");
+  }
+}

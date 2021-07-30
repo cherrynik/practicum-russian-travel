@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+
+  .photo-grid {
+    margin: 64px 16px 0;
+
+    height: 2724px;
+    background: pink;
+  }
+
+  .places {
+    margin-top: 64px;
+
+    height: 5177px;
+    background: lightgreen;
+  }
+
+  .cover {
+    margin-top: 66px;
+
+    height: 200px;
+    background: orange;
+  }
+
+  .footer {
+    margin: 64px 118px 24px 16px;
+
+    height: 310px;
+    background: black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  
+}
+
+@media (min-width: 1280px) {
+
+}

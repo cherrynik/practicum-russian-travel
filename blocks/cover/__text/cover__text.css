@@ -1,0 +1,13 @@
+.cover .cover__text {
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .cover .cover__text {
+    font-size: 14px;
+    margin-top: 16px;
+    width: 260px;
+    line-height: 1.15;
+  }
+}

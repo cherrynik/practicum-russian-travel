@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .langs {
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .langs {
+    margin-top: 8px;
+  }
+}

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Inter-Regular.eot?v=3.19');
+	src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url('Inter-Regular.woff?v=3.19') format('woff'),
+       url('Inter-Regular.ttf?v=3.19') format('truetype'),
+       url('Inter-Regular.svg?v=3.19') format('svg');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('Inter-Black.eot?v=3.19');
+  src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+       url('Inter-Black.woff?v=3.19') format('woff'),
+       url('Inter-Black.ttf?v=3.19') format('truetype'),
+       url('Inter-Black.svg?v=3.19') format('svg');
+}
+
+@font-face {
+	font-family: 'Inter';
+  font-style: normal;
+	font-weight: 700;
+  font-display: swap;
+	src: url('Inter-Bold.eot?v=3.19');
+	src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+       url('Inter-Bold.woff?v=3.19') format('woff'),
+       url('Inter-Bold.ttf?v=3.19') format('truetype'),
+       url('Inter-Bold.svg?v=3.19') format('svg');
+}

@@ -1,0 +1,25 @@
+.langs__switcher {
+  text-decoration: none;
+}
+
+.langs__switcher:not(:last-child) {
+  margin-right: 18px;
+}
+
+@media (max-width: 768px) {
+  .langs__switcher {
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  
+  .langs__switcher:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .langs__switcher {
+    font-size: 24px;
+  }
+}

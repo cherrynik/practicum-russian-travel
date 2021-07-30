@@ -1,0 +1,7 @@
+.website {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  height: 46px;
+  justify-content: space-between;
+}

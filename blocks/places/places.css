@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+  .places {
+    margin-top: 64px;
+    height: 5243px;
+    background: rgb(0 0 0 / 20%);
+  }
+}
