@@ -5,7 +5,12 @@
 
 @media (max-width: 768px) {
   .cover .cover__slogan {
-    margin-top: 33px;
     width: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cover .cover__slogan {
+    width: 550px;
   }
 }

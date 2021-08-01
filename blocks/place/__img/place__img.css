@@ -1,7 +1,17 @@
+.place .place__img {
+  grid-area: place__img;
+}
+
 @media (max-width: 768px) {
   .place .place__img {
     width: calc(100% + 16px * 2);
-    margin-top: 32px;
     margin-left: -16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .place .place__img {
+    width: 100%;
+    margin: 0;
   }
 }

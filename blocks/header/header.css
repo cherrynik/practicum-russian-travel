@@ -24,7 +24,7 @@
   .header {
     height: var(--height-320);
     width: calc(100% - var(--margins-x-axis-320) * 2);
-    margin: var(--margins-320);
+    margin-top: 16px;
   }
 
   .logo {
@@ -32,11 +32,16 @@
   }
 }
 
+@media (min-width: 768px) {
+  .header {
+    margin-top: 28px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
     height: var(--height-default);
     width: calc(100% - var(--margins-x-axis-768) * 2);
-    margin: var(--margins-768);
   }
 
   .logo {
@@ -47,8 +52,7 @@
 @media (min-width: 1024px) and (max-width: 1280px) {
   .header {
     height: var(--height-default);
-    width: calc(100% - var(--margins-x-axis-1024) * 2);
-    margin: var(--margins-1024);
+    width: 100%;
   }
 
   .logo {
@@ -59,8 +63,7 @@
 @media (min-width: 1280px) {
   .header {
     height: var(--height-default);
-    width: calc(100% - var(--margins-x-axis-1280) * 2);
-    margin: var(--margins-1280);
+    max-width: 1184px;
   }
 
   .logo {

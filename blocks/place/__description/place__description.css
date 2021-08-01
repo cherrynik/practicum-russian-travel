@@ -1,0 +1,25 @@
+.place .place__description:first-child {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .place:nth-child(1) .place__description,
+  .place:nth-child(4) .place__description {
+    letter-spacing: 0.4px;
+  }
+}
+
+@media (min-width: 768px) {
+  .place:nth-child(1) .place__description,
+  .place:nth-child(4) .place__description {
+    letter-spacing: normal;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place .place__description,
+  .place .place__description {
+    margin-top: 27px;
+    font-size: 18px;
+  }
+}

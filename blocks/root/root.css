@@ -78,6 +78,10 @@
   width: fit-content;
 }
 
+.link_nounderline {
+  border-bottom: none;
+}
+
 .caption {
   font-size: 10px;
   text-transform: uppercase;
@@ -123,6 +127,11 @@
   .subtitle {
     font-size: 54px;
     line-height: 1.07;
+  }
+
+  .slogan {
+    font-size: 72px;
+    line-height: 1.06;
   }
 
 /*   .page-description {

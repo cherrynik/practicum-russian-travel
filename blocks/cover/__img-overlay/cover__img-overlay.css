@@ -2,13 +2,12 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 0;
 }
 
 @media (max-width: 768px) {
   .cover__img-overlay {
-    height: 200px;
   }
 
   .cover__img-overlay .img-overlay__img {
