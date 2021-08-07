@@ -11,7 +11,8 @@
   height: 100%;
   width: 100%;
   background-color: var(--callback-background);
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .lead__figure .figure__caption {
