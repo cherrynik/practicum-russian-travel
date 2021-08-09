@@ -1,0 +1,22 @@
+:root {
+  --lead-mobile-description-width-max: 320px;
+  --lead-mobile-description-top-gap: 16px;
+
+  --lead-description-width-max: 500px;
+  --lead-description-top-gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .lead__description {
+    max-width: var(--lead-mobile-description-width-max);
+    margin-top: var(--lead-mobile-description-top-gap);
+  }
+}
+
+
+@media (min-width: 768px) {
+  .lead__description {
+    max-width: var(--lead-description-width-max);
+    margin-top: var(--lead-description-top-gap);
+  }
+}

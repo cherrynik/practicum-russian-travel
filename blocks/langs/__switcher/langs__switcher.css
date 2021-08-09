@@ -1,25 +1,34 @@
+:root {
+  --mobile-langs-font-size: 18px;
+  --langs-font-size: 24px;
+
+  --mobile-langs-line-height: 1.11;
+
+  --mobile-langs-right-gap: 15px;
+  --langs-right-gap: 18px;
+}
+
 .langs__switcher {
   text-decoration: none;
 }
 
-.langs__switcher:not(:last-child) {
-  margin-right: 18px;
-}
-
 @media (max-width: 768px) {
   .langs__switcher {
-    font-family: Inter;
-    font-size: 18px;
-    line-height: 1.11;
+    font-size: var(--mobile-langs-font-size);
+    line-height: var(--mobile-langs-line-height);
   }
   
   .langs__switcher:not(:last-child) {
-    margin-right: 15px;
+    margin-right: var(--mobile-langs-right-gap);
   }
 }
 
 @media (min-width: 768px) {
   .langs__switcher {
-    font-size: 24px;
+    font-size: var(--langs-font-size);
+  }
+
+  .langs__switcher:not(:last-child) {
+     margin-right: var(--langs-right-gap);
   }
 }

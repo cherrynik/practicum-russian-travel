@@ -1,0 +1,20 @@
+:root {
+  --lead-mobile-title-width-max: 320px;
+  --lead-title-width-max: 700px;
+
+  --lead-title-top-gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    max-width: var(--lead-mobile-title-width-max);
+    margin-top: var(--lead-title-top-gap);
+  }
+}
+
+
+@media (min-width: 768px) {
+  .lead__title {
+    max-width: var(--lead-title-width-max);
+  }
+}

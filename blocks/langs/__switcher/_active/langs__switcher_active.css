@@ -1,4 +1,9 @@
+:root {
+  --lang-active-underline: 2px solid;
+  --lang-active-padding-bottom: 1px;
+}
+
 .langs__switcher_active {
-  border-bottom: 2px solid;
-  padding-bottom: 1px;
+  border-bottom: var(--lang-active-underline);
+  padding-bottom: var(--lang-active-padding-bottom);
 }
