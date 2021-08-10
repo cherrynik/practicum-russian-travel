@@ -2,7 +2,7 @@
   --container-size-320: 288px;
   --container-size-768: 720px;
   --container-size-1024: 928px;
-  --container-gap-1280: 984px;
+  --container-size-1280: 984px;
 }
 
 .container {
@@ -30,6 +30,6 @@
 
 @media (min-width: 1280px) {
   .container {
-    max-width: var(--container-gap-1280);
+    max-width: var(--container-size-1280);
   }
 }

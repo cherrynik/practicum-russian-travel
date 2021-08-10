@@ -1,0 +1,12 @@
+:root {
+  --figure-image-width-default: 100%;
+  --figure-image-reposition: 16px;
+}
+
+@media (max-width: 768px) {
+  .figure__image {
+    position: relative;
+    width: calc(var(--figure-image-width-default) + var(--figure-image-reposition) * 2);
+    right: var(--figure-image-reposition);
+  }
+}

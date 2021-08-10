@@ -1,38 +1,39 @@
 :root {
-  --callback-background: #6a907b;
+  --lead-figure-background-callback: #6a907b;
+  --lead-figure-width-default: 100%;
+  --lead-figure-height-default: 100%;
+
+  --lead-figure-mobile-gaps: 40px 0 0 0;
+  --lead-figure-gaps: 65px auto 0;
 }
 
-.lead .lead__figure {
-  width: 100%;
-}
-
-.lead__figure .figure__image {
+/* .lead__figure .figure__image {
   display: block;
-  height: 100%;
-  width: 100%;
-  background-color: var(--callback-background);
+  height: var(--lead-height-default);
+  width: var(--lead-figure-background-callback);
+  background-color: var(--lead-figure-background-callback);
   -o-object-fit: cover;
      object-fit: cover;
-}
+} */
 
-.lead__figure .figure__caption {
+/* .lead__figure .figure__caption {
   margin-top: 8px;
-}
+} */
 
 @media (max-width: 768px) {
-  .lead .lead__figure {
-    margin: 40px 0 0 0;
+  .lead__figure {
+    margin: var(--lead-figure-mobile-gaps);
   }
 
-  .lead__figure .figure__image {
+  /* .lead__figure .figure__image {
     position: relative;
     width: calc(100% + 16px * 2);
     right: 16px;
-  }
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .lead__figure .figure__image {
+  /* .lead__figure .figure__image {
     max-height: 480px;
   }
 
@@ -40,36 +41,36 @@
     position: relative;
     width: 768px;
     right: 24px;
-  }
+  } */
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
-  .lead .lead__figure {
+  /* .lead .lead__figure {
     margin: 56px auto 0;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
-  .lead__figure .figure__image {
+  /* .lead__figure .figure__image {
     width: 100%;
     margin-left: 0;
-  }
+  } */
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .lead__figure .figure__image {
+  /* .lead__figure .figure__image {
     max-height: 580px;
-  }
+  } */
 }
 
 @media (min-width: 1280px) {
   .lead .lead__figure {
-    margin: 65px auto 0;
-    width: 100%;
+    margin: var(--lead-figure-gaps);
+    /* width: 100%; */
   }
 
-  .lead__figure .figure__image {
+  /* .lead__figure .figure__image {
     max-height: 615px;
     width: 984px;
-  }
+  } */
 }
