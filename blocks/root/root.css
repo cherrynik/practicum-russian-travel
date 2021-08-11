@@ -152,7 +152,7 @@
   color: var(--text-secondary-color);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .logo {
     width: var(--logo-size-small);
   }

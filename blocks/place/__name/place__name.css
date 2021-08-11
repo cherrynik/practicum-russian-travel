@@ -6,6 +6,7 @@
   .place .place__name {
     width: 97%;
     font-size: 42px;
+    line-height: 1.1;
   }
 }
 
