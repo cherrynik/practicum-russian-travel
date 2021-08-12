@@ -1,18 +1,16 @@
+:root {
+  --intro-subtitle-mobile-width: 80%;
+  --intro-subtitle-medium-width: 100%;
+}
+
 @media (max-width: 768px) {
   .intro .intro__subtitle {
-    width: 80%;
+    width: var(--intro-subtitle-mobile-width);
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro .intro__subtitle {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) and (min-width: 1024px) {
-  .intro .intro__subtitle {
-    margin-top: 92px;
-    width: 100%;
+    width: var(--intro-subtitle-medium-width);
   }
 }

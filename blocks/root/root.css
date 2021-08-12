@@ -102,6 +102,10 @@
   font-weight: 900;
 }
 
+.list__item .small {
+  font-weight: normal;
+}
+
 .text {
   font-size: var(--text-size);
   line-height: var(--text-line-height);
