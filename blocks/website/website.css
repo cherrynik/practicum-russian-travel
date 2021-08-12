@@ -1,7 +1,12 @@
+:root {
+  --website-top-gap: 32px;
+  --website-height: 46px;
+}
+
 .website {
   display: flex;
   flex-direction: column;
-  margin-top: 32px;
-  height: 46px;
   justify-content: space-between;
+  margin-top: var(--website-top-gap);
+  height: var(--website-height);
 }

@@ -1,17 +1,17 @@
-.place .place__img {
+:root {
+  --place-default-width: 100%;
+  --place-mobile-reposition: 16px;
+}
+
+.place__img {
+  position: relative;
+  width: var(--place-default-width);
   grid-area: place__img;
 }
 
 @media (max-width: 768px) {
-  .place .place__img {
-    width: calc(100% + 16px * 2);
-    margin-left: -16px;
-  }
-}
-
-@media (min-width: 768px) {
-  .place .place__img {
-    width: 100%;
-    margin: 0;
+  .place__img {
+    width: calc(var(--place-default-width) + var(--place-mobile-reposition) * 2);
+    right: var(--place-mobile-reposition);
   }
 }

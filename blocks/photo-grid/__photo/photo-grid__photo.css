@@ -1,14 +1,16 @@
-.photo-grid .photo-grid__photo {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: lightblue;
-  -o-object-fit: cover;
-     object-fit: cover;
+:root {
+  --photo-from-grid-size: 100%;
+
+  --photo-from-grid-background-callback: lightblue;
+
+  --photo-from-grid-fit-behaviour: cover;
 }
 
-@media (max-width: 768px) {
-
-  /* .photo-grid .photo-grid__photo:not(:first-child) {
-  } */
+.photo-grid__photo {
+  display: block;
+  width: var(--photo-from-grid-size);
+  height: var(--photo-from-grid-size);
+  background-color: var(--photo-from-grid-background-callback);
+  -o-object-fit: var(--photo-from-grid-fit-behaviour);
+     object-fit: var(--photo-from-grid-fit-behaviour);
 }
