@@ -120,6 +120,11 @@
   font-size: var(--link-size);
   line-height: var(--link-line-height);
   border-bottom: var(--link-underline);
+  transition: .2s all ease;
+}
+
+.link:hover {
+  opacity: .8;
 }
 
 .link_nounderline {

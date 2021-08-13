@@ -1,9 +1,4 @@
-:root {
-  --place-website-margins: 0;
-}
-
 .place .place__website {
   grid-area: place__website;
   align-self: flex-end;
-  margin: var(--place-website-margins);
 }
