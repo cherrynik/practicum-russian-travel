@@ -30,7 +30,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 264px);
     grid-auto-rows: 264px;
-    grid-gap: var(--photo-all-gaps-720);
+    grid-gap: var(--photo-grid-all-gaps-768);
     margin-top: var(--photo-grid-medium-top-gap);
   }
 }

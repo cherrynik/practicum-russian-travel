@@ -1,5 +1,4 @@
 /* TODO: Refactor all files on their namings. And that's it. */
-
 @import url("../vendor/normalize.css");
 
 @import url("../fonts/Inter/Inter.css");
@@ -45,7 +44,6 @@
 @import url("../blocks/website/__heading/website__heading.css");
 @import url("../blocks/website/__link/website__link.css");
 
-/* ToDo */
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__slogan/cover__slogan.css");
 @import url("../blocks/cover/__text/cover__text.css");

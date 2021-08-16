@@ -12,5 +12,5 @@
   height: var(--photo-from-grid-size);
   background-color: var(--photo-from-grid-background-callback);
   -o-object-fit: var(--photo-from-grid-fit-behaviour);
-     object-fit: var(--photo-from-grid-fit-behaviour);
+  object-fit: var(--photo-from-grid-fit-behaviour);
 }

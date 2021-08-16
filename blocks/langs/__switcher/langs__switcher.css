@@ -9,6 +9,7 @@
 }
 
 .langs__switcher {
+  display: inline;
   text-decoration: none;
 }
 
