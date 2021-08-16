@@ -1,15 +1,3 @@
 .place .place__description-group {
   grid-area: place__description-group;
 }
-
-@media (max-width: 768px) {
-  .place .place__description-group {
-    /* margin-top: 32px; */
-  }
-}
-
-@media (min-width: 768px) {
-  .place .place__description-group {
-    margin-top: 0;
-  }
-}

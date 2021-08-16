@@ -1,23 +1,30 @@
+:root {
+  --places-top-gap-320: 64px;
+  --places-top-gap-720: 88px;
+  --places-top-gap-1024: 92px;
+  --places-top-gap-1280: 100px;
+}
+
 @media (max-width: 768px) {
   .places {
-    margin-top: 64px;
+    margin-top: var(--places-top-gap-320);
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .places {
-    margin-top: 88px;
+    margin-top: var(--places-top-gap-720);
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .places {
-    margin-top: 92px;
+    margin-top: var(--places-top-gap-1024);
   }
 }
 
 @media (min-width: 1280px) {
   .places {
-    margin-top: 84px;
+    margin-top: var(--places-top-gap-1280);
   }
 }

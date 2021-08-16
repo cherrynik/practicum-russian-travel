@@ -1,17 +1,27 @@
+:root {
+  --place-name-medium-width: 97%;
+  --place-name-medium-font-size: 42px;
+  --place-name-medium-line-height: 1.1;
+
+  --place-name-font-size: 72px;
+  --place-name-line-height: 1.06;
+}
+
 .place .place__name {
   grid-area: place__name;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .place .place__name {
-    width: 97%;
-    font-size: 42px;
+    width: var(--place-name-medium-width);
+    font-size: var(--place-name-medium-font-size);
+    line-height: var(--place-name-medium-line-height);
   }
 }
 
 @media (min-width: 1024px) {
   .place .place__name {
-    font-size: 72px;
-    line-height: 1.06;
+    font-size: var(--place-name-font-size);
+    line-height: var(--place-name-line-height);
   }
 }

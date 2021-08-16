@@ -1,8 +1,8 @@
 :root {
-  --size-320: 288px;
-  --size-768: 720px;
-  --size-1024: 928px;
-  --gap-1280: 984px;
+  --container-size-320: 288px;
+  --container-size-768: 720px;
+  --container-size-1024: 928px;
+  --container-size-1280: 984px;
 }
 
 .container {
@@ -12,24 +12,24 @@
 
 @media (max-width: 768px) {
   .container {
-    max-width: var(--size-320);
+    max-width: var(--container-size-320);
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
-    max-width: var(--size-768);
+    max-width: var(--container-size-768);
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .container {
-    max-width: var(--size-1024);
+    max-width: var(--container-size-1024);
   }
 }
 
 @media (min-width: 1280px) {
   .container {
-    max-width: var(--gap-1280);
+    max-width: var(--container-size-1280);
   }
 }

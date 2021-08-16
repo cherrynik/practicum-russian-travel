@@ -1,20 +1,31 @@
+:root {
+  --cover-text-behaviour: center;
+  --cover-text-mobile-font-size: 14px;
+  --cover-text-mobile-width: 260px;
+  --cover-text-mobile-line-height: 1.15;
+
+  --cover-text-default-font-size: 18px;
+  --cover-text-default-width: 360px;
+  --cover-text-default-line-height: 1.22;
+}
+
 .cover .cover__text {
-  text-align: center;
+  text-align: var(--cover-text-behaviour);
   z-index: 1;
 }
 
 @media (max-width: 768px) {
   .cover .cover__text {
-    font-size: 14px;
-    width: 260px;
-    line-height: 1.15;
+    font-size: var(--cover-text-mobile-font-size);
+    width: var(--cover-text-mobile-width);
+    line-height: var(--cover-text-mobile-line-height);
   }
 }
 
 @media (min-width: 768px) {
   .cover .cover__text {
-    font-size: 18px;
-    width: 360px;
-    line-height: 1.22;
+    font-size: var(--cover-text-default-font-size);
+    width: var(--cover-text-default-width);
+    line-height: var(--cover-text-default-line-height);
   }
 }

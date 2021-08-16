@@ -1,5 +1,8 @@
+/* TODO: Refactor all files on their namings. And that's it. */
 @import url("../vendor/normalize.css");
+
 @import url("../fonts/Inter/Inter.css");
+
 @import url("../blocks/root/root.css");
 
 @import url("../blocks/container/container.css");
@@ -11,7 +14,13 @@
 @import url("../blocks/langs/__switcher/langs__switcher.css");
 @import url("../blocks/langs/__switcher/_active/langs__switcher_active.css");
 
+@import url("../blocks/figure/figure.css"); 
+@import url("../blocks/figure/__image/figure__image.css");
+@import url("../blocks/figure/__caption/figure__caption.css"); 
+
 @import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__description/lead__description.css");
 @import url("../blocks/lead/__figure/lead__figure.css");
 
 @import url("../blocks/intro/intro.css");
@@ -41,3 +50,6 @@
 @import url("../blocks/cover/__img-overlay/cover__img-overlay.css");
 
 @import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");

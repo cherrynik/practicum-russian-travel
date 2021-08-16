@@ -1,16 +1,15 @@
 :root {
-  --height-320: 42px;
-  --height-default: 52px;
+  --header-width-max: 1184px;
+  --header-width-default: 100%;
 
-  --margins-x-axis-320: 16px;
-  --margins-x-axis-768: 24px;
-  --margins-x-axis-1024: 48px;
-  --margins-x-axis-1280: var(--margins-x-axis-1024);
+  --header-mobile-top-gap: 16px;
+  --header-top-gap: 28px;
 
-  --margins-320: 16px var(--margins-x-axis-320) 49px;
-  --margins-768: 28px var(--margins-x-axis-768) 48px;
-  --margins-1024: 28px var(--margins-x-axis-1024) 48px;
-  --margins-1280: 28px var(--margins-x-axis-1280) 56px;
+  --header-height-320: 42px;
+  --header-height-default: 52px;
+
+  --header-margins-x-axis-320: 16px;
+  --header-margins-x-axis-768: 24px;
 }
 
 .header {
@@ -22,51 +21,34 @@
 
 @media (max-width: 768px) {
   .header {
-    height: var(--height-320);
-    width: calc(100% - var(--margins-x-axis-320) * 2);
-    margin-top: 16px;
-  }
-
-  .logo {
-    width: 143px;
+    height: var(--header-height-320);
+    width: calc(var(--header-width-default) - var(--header-margins-x-axis-320) * 2);
+    margin-top: var(--header-mobile-top-gap);
   }
 }
 
 @media (min-width: 768px) {
   .header {
-    margin-top: 28px;
+    height: var(--header-height-default);
+    margin-top: var(--header-top-gap);
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
-    height: var(--height-default);
-    width: calc(100% - var(--margins-x-axis-768) * 2);
-  }
-
-  .logo {
-    width: 176px;
+    width: calc(var(--header-width-default) - var(--header-margins-x-axis-768) * 2);
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
   .header {
-    height: var(--height-default);
-    width: 100%;
-  }
-
-  .logo {
-    width: 176px;
+    width: var(--header-width-default);
   }
 }
 
 @media (min-width: 1280px) {
   .header {
-    height: var(--height-default);
-    max-width: 1184px;
-  }
-
-  .logo {
-    width: 176px;
+    height: var(--header-height-default);
+    max-width: var(--header-width-max);
   }
 }

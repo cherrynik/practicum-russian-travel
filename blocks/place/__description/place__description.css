@@ -1,25 +1,36 @@
-.place .place__description:first-child {
-  margin: 0;
+:root {
+  --place-description-first-gaps: 0;
+  --place-description-top-gap: 27px;
+
+  --place-description-mobile-letter-spacing: .4px;
+  --place-description-default-letter-spacing: normal;
+
+  --place-description-font-size: 18px;
+}
+
+/* Positioning for pixel perfect */
+.place__description:first-child {
+  margin: var(--place-description-first-gaps);
 }
 
 @media (max-width: 768px) {
   .place:nth-child(1) .place__description,
   .place:nth-child(4) .place__description {
-    letter-spacing: 0.4px;
+    letter-spacing: var(--place-description-mobile-letter-spacing);
   }
 }
 
 @media (min-width: 768px) {
   .place:nth-child(1) .place__description,
   .place:nth-child(4) .place__description {
-    letter-spacing: normal;
+    letter-spacing: var(--place-description-default-letter-spacing);
   }
 }
 
 @media (min-width: 1024px) {
-  .place .place__description,
-  .place .place__description {
-    margin-top: 27px;
-    font-size: 18px;
+  .place__description,
+  .place__description {
+    margin-top: var(--place-description-top-gap);
+    font-size: var(--place-description-font-size);
   }
 }
