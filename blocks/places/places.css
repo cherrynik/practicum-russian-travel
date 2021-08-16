@@ -2,7 +2,7 @@
   --places-top-gap-320: 64px;
   --places-top-gap-720: 88px;
   --places-top-gap-1024: 92px;
-  --places-top-gap-1280: 94px;
+  --places-top-gap-1280: 100px;
 }
 
 @media (max-width: 768px) {

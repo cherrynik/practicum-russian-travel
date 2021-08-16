@@ -45,7 +45,9 @@
   display: none;
 }
 
-
+.logo {
+  width: var(--logo-size-default);
+}
 
 .page-title,
 .page-description,
@@ -71,6 +73,10 @@
 
 .page-title {
   width: 100%;
+}
+
+.list__item .small {
+  font-weight: normal;
 }
 
 .list__item .small {
@@ -186,7 +192,6 @@
     font-size: var(--subtitle-size);
     line-height: var(--subtitle-line-height);
   }
-
 
   .article-subtitle {
     font-weight: 900;

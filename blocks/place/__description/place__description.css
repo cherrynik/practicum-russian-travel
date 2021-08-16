@@ -1,8 +1,10 @@
 :root {
   --place-description-first-gaps: 0;
   --place-description-top-gap: 27px;
+
   --place-description-mobile-letter-spacing: .4px;
   --place-description-default-letter-spacing: normal;
+
   --place-description-font-size: 18px;
 }
 
