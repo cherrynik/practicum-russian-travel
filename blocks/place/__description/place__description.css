@@ -3,9 +3,9 @@
   --place-description-top-gap: 27px;
 
   --place-description-mobile-letter-spacing: .4px;
-  --place-description-letter-spacing: normal;
+  --place-description-default-letter-spacing: normal;
 
-  --place-descripion-font-size: 18px;
+  --place-description-font-size: 18px;
 }
 
 /* Positioning for pixel perfect */
@@ -23,7 +23,7 @@
 @media (min-width: 768px) {
   .place:nth-child(1) .place__description,
   .place:nth-child(4) .place__description {
-    letter-spacing: var(--place-description-letter-spacing);
+    letter-spacing: var(--place-description-default-letter-spacing);
   }
 }
 
