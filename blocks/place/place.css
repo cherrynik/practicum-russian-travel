@@ -20,7 +20,7 @@
 }
 
 @media (max-width: 768px) {
-  .place:not(:first-child) {
+  .place:not(:first-of-type) {
     margin-top: var(--place-mobile-top-gap-between);
   }
 
@@ -50,13 +50,13 @@
     grid-column-gap: var(--place-cols-gap-768);
   }
 
-  .place:not(:first-child) {
+  .place:not(:first-of-type) {
     margin-top: var(--place-medium-top-gap-between);
   }
 }
 
 @media (min-width: 1024px) {
-  .place:not(:first-child) {
+  .place:not(:first-of-type) {
     margin-top: var(--place-top-gap-between);
   }
 }

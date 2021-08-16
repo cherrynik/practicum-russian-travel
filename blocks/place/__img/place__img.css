@@ -1,17 +1,19 @@
 :root {
-  --place-default-width: 100%;
-  --place-mobile-reposition: 16px;
+  --place-img-default-width: 100%;
+  --place-img-mobile-reposition: 16px;
+  --place-img-callback-background-color: #4ba085;
 }
 
 .place__img {
   position: relative;
-  width: var(--place-default-width);
+  width: var(--place-img-default-width);
   grid-area: place__img;
+  background-color: var(--place-img-callback-background-color);
 }
 
 @media (max-width: 768px) {
   .place__img {
-    width: calc(var(--place-default-width) + var(--place-mobile-reposition) * 2);
-    right: var(--place-mobile-reposition);
+    width: calc(var(--place-img-default-width) + var(--place-img-mobile-reposition) * 2);
+    right: var(--place-img-mobile-reposition);
   }
 }
