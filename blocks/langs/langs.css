@@ -1,11 +1,7 @@
-@media (max-width: 768px) {
-  .langs {
-    margin-top: 8px;
-  }
+:root {
+  --langs-top-gap: 8px;
 }
 
-@media (min-width: 768px) {
-  .langs {
-    margin-top: 8px;
-  }
+.header__langs {
+  margin-top: var(--langs-top-gap);
 }

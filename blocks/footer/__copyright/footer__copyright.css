@@ -1,0 +1,24 @@
+:root {
+  --footer-copyright-font-size: 14px;
+  --footer-copyright-mobile-top-gap: 48px;
+  --footer-copyright-default-top-gap: 0;
+
+  --footer-copyright-line-height: 1.14;
+}
+
+.footer .footer__copyright {
+  font-size: var(--footer-copyright-font-size);
+}
+
+@media (max-width: 768px) {
+  .footer .footer__copyright {
+    margin-top: var(--footer-copyright-mobile-top-gap);
+    line-height: var(--footer-copyright-line-height);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .footer__copyright {
+    margin-top: var(--footer-copyright-default-top-gap);
+  }
+}

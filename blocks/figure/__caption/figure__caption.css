@@ -1,0 +1,7 @@
+:root {
+  --figure-caption-top-gap: 8px;
+}
+
+.figure__caption {
+  margin-top: var(--figure-caption-top-gap);
+}

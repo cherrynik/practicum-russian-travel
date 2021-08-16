@@ -1,0 +1,7 @@
+:root {
+  --figure-default-margins: 0;
+}
+
+.figure {
+  margin: var(--figure-default-margins);
+}

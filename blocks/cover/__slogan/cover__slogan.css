@@ -1,16 +1,22 @@
+:root {
+  --cover-slogan-behaviour: center;
+  --cover-slogan-mobile-width: 250px;
+  --cover-slogan-default-width: 550px;
+}
+
 .cover .cover__slogan {
-  text-align: center;
+  text-align: var(--cover-slogan-behaviour);
   z-index: 1;
 }
 
 @media (max-width: 768px) {
   .cover .cover__slogan {
-    width: 250px;
+    width: var(--cover-slogan-mobile-width);
   }
 }
 
 @media (min-width: 768px) {
   .cover .cover__slogan {
-    width: 550px;
+    width: var(--cover-slogan-default-width);
   }
 }

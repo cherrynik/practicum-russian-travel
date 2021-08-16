@@ -1,19 +1,7 @@
-.list__item .small {
-  font-weight: normal;
+:root {
+  --intro-list-top-gap: 33px;
 }
 
-@media (max-width: 768px) {
-  .intro .intro__list {
-    margin-top: 34px;
-  }
-}
-
-@media (min-width: 768px) {
-  .intro .intro__description {
-    margin-top: 43px;
-  }
-
-  .intro .intro__list {
-    margin-top: 33px;
-  }
+.intro__list {
+  margin-top: var(--intro-list-top-gap);
 }
