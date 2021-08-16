@@ -2,12 +2,9 @@
   --main-background-color: #2a2c2f;
   --text-primary-color: #fff;
   --text-secondary-color: #aaa;
-
   --default-fonts: Inter, Arial, Helvetica, sans-serif;
-
   --logo-size-default: 176px;
   --logo-size-small: 143px;
-
   --title-size: 96px;
   --mobile-title-size: 40px;
   --description-size: 30px;
@@ -19,7 +16,6 @@
   --link-size: 18px;
   --hint-size: 12px;
   --caption-size: 10px;
-
   --text-line-height: 1.63;
   --caption-line-height: 1.4;
   --link-line-height: 1.22;
@@ -32,11 +28,9 @@
   --description-line-height: 1.2;
   --mobile-subtitle-line-height: 1.09;
   --subtitle-line-height: 1.07;
-
   --caption-letter-spacing: 1.5px;
   --hint-small-letter-spacing: 2px;
   --hint-letter-spacing: .1px;
-
   --link-underline: 1px solid var(--text-primary-color);
   --text-margin-top: 25px;
 }
@@ -51,9 +45,7 @@
   display: none;
 }
 
-.logo {
-  width: var(--logo-size-default);
-}
+
 
 .page-title,
 .page-description,
@@ -78,28 +70,7 @@
 }
 
 .page-title {
-  font-size: var(--title-size);
-  line-height: var(--title-line-height);
   width: 100%;
-}
-
-.page-description {
-  font-size: var(--description-size);
-  line-height: var(--description-line-height);
-}
-
-.subtitle {
-  font-size: var(--subtitle-size);
-  line-height: var(--subtitle-line-height);
-}
-
-.slogan {
-  font-size: var(--slogan-size);
-  line-height: var(--slogan-line-height);
-}
-
-.article-subtitle {
-  font-weight: 900;
 }
 
 .list__item .small {
@@ -142,6 +113,7 @@
   list-style: none;
 }
 
+
 .hint,
 .small {
   font-size: var(--hint-size);
@@ -159,6 +131,10 @@
   letter-spacing: var(--hint-small-letter-spacing);
   line-height: var(--hint-small-line-height);
   color: var(--text-secondary-color);
+}
+
+.url {
+  font-size: var(--link-size);
 }
 
 @media (max-width: 768px) {
@@ -182,12 +158,37 @@
     font-size: var(--mobile-subtitle-size);
     line-height: var(--mobile-subtitle-line-height);
   }
+}
 
-  .url {
-    font-size: var(--link-size);
+@media (min-width: 768px) {
+  .logo {
+    width: var(--logo-size-default);
   }
 
-  .hint {
-    font-size: var(--hint-size);
+
+  .page-title {
+    font-size: var(--title-size);
+    line-height: var(--title-line-height);
+  }
+
+
+  .page-description {
+    font-size: var(--description-size);
+    line-height: var(--description-line-height);
+  }
+
+  .slogan {
+    font-size: var(--slogan-size);
+    line-height: var(--slogan-line-height);
+  }
+
+  .subtitle {
+    font-size: var(--subtitle-size);
+    line-height: var(--subtitle-line-height);
+  }
+
+
+  .article-subtitle {
+    font-weight: 900;
   }
 }

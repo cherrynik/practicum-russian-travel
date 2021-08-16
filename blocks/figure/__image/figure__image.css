@@ -1,6 +1,5 @@
 :root {
   --figure-image-width-default: 100%;
-
   --figure-image-mobile-reposition: 16px;
   --figure-image-reposition: 24px;
 }
@@ -30,5 +29,6 @@
 @media (min-width: 1024px) {
   .figure__image {
     width: var(--figure-image-width-default);
+    right: 0;
   }
 }
