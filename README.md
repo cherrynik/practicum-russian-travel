@@ -1,2 +1,2 @@
-# practicum-russian-travel
-Make-up project for my job
+# Russian Travel
+Github pages: [kolyandev.github.io/practicum-russian-travel](https://kolyandev.github.io/practicum-russian-travel)
