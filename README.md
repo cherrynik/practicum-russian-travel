@@ -1,2 +1,2 @@
 # Russian Travel
-GitHub Pages: [kolyandev.github.io/practicum-russian-travel](https://kolyandev.github.io/practicum-russian-travel)
+GitHub Pages: [cherrynik.github.io/practicum-russian-travel](https://cherrynik.github.io/practicum-russian-travel)
